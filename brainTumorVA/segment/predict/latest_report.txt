@@ -1,0 +1,9 @@
+Brain Tumor Segmentation Analysis
+Source Image: tmpjw8c895x.jpg
+Detection: Tumor detected
+Lesions: 1
+Area: 17496 px (4.27%)
+Location: lower, central
+Confidence: 0.918
+Method: YOLOv8 Segmentation
+Timestamp: 
