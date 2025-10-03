@@ -89,9 +89,7 @@ for mod_name, mod_path in MODALITIES.items():
 mri_volume = np.stack(data_vol, axis=-1).astype(np.float32)
 print(f"✅ Final MRI volume shape: {mri_volume.shape}")
 
-# ================================
-# Run 2D Slice-Wise Inference
-# ================================
+
 print("🚀 Running 2D U-Net Inference...")
 pred_mask_3d = np.zeros((240, 240, 155), dtype=np.uint8)  # To store 3D mask
 
